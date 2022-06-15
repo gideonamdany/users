@@ -12,6 +12,7 @@ if (isset($_POST["btn_reg"])){
                         VALUES (null,'$name','$email','$pasword')";
 
 
+
     //finally save the data using mysqli_quary
     if (isset($connection)) {
         $save = mysqli_query($connection,$insertquary);
