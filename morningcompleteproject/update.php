@@ -37,6 +37,7 @@ if (isset($_GET["u_id"])){
                 <input  value="<?php echo $receivedPassword;?>"name="u_password" class="form-control" placeholder ="enter password" type="password"><br><br>
                 <input  class="btn btn-outline-info btn-block" value="update" name="btn_update" type="submit"><br><br>
                 <a class="btn btn-outline-success btn-block" href="users.php">Back</a>
+
             </form>
         </div>
         <div class="col-3"></div>
